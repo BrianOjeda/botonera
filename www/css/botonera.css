@@ -1,0 +1,71 @@
+.wrapper {
+  display: flex;
+  flex-direction:column;  
+  width: 100%;
+  min-height: 100%;
+  padding: 20px;
+  background: rgba(4, 40, 68, 0.85);
+}
+.classname { 
+				/*display:block;*/
+				padding:20px;  
+				border:solid 2px #CCC; 
+				/*text-align:center;*/
+				}
+	
+	
+				
+	.classname {min-height:250px;}
+	
+	.classname{display:inline-flex ; 
+			flex-direction:row ; 
+			flex-wrap:wrap ; 
+			justify-content:space-around ; 
+			align-items:center ; 
+			align-content:center }	
+.uno{ width:250px; 
+				/*height:250px;*/
+				padding:25px; 
+				background:#295D84; 
+				margin:5px; 
+				color:#FFF; 
+				text-shadow:0 0 0 rgba(000,000,000,.5);  
+				} 		
+
+				.dos{ width:248px; 
+				/*height:250px; */
+				padding:25px; 
+				background:#3B8E9C; 
+				margin:5px; 
+				color:#FFF; 
+				text-shadow:0 0 0 rgba(000,000,000,.5);  
+				} 		
+	.tres{ width:250px; 
+				/*height:250px; */
+				padding:25px; 
+				background:#19A760; 
+				margin:5px; color:#FFF; 
+				text-shadow:0 0 0 rgba(000,000,000,.5);  
+				} 
+				.cuatro{ width:248px; 
+				/*height:250px;*/
+				padding:25px; 
+				background:#D5A903; 
+				margin:5px; 
+				color:#FFF; 
+				text-shadow:0 0 0 rgba(000,000,000,.5);  
+				} 
+				
+	.cinco{ width:250px; 
+				/*height:250px;*/
+				padding:25px; 
+				background:#D56F03; 
+				margin:5px; 
+				color:#FFF; 
+				text-shadow:0 0 0 rgba(000,000,000,.5);  
+				} 
+
+	
+img.mediana{
+  width: 130px; height: 130px;
+}
