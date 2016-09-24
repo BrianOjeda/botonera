@@ -1,23 +1,27 @@
-<ion-view view-title="Dashboard">
+<ion-view view-title="Home">
   <ion-content class="padding">
       <div class="wrapper">
          <section class="clearfix">
            <div class="classname">
                  <div class="uno">
-                    <a href="#modal1"><img src="img/skiner.png" class="mediana"></a>
+                    <a href="#" ng-click="prendersonido('skiner')"><img src="img/skiner.png" class="mediana"></a>
                   </div>
                   <div class="dos"> 
-                    <a href="#modal1"><img src="img/bart.png" class="mediana"></a>
+                    <a href="#" ng-click="prendersonido('bart')"><img src="img/bart.png" class="mediana"></a>
                   </div>
                    <div class="tres"> 
-                    <a href="#modal1"><img src="img/lisa.png" class="mediana"></a>
+                    <a href="#" ng-click="prendersonido('lisa')"><img src="img/lisa.png" class="mediana"></a>
                   </div>
                  <div class="cuatro"> 
-                  <a href="#modal1"><img src="img/jefe.png" class="mediana"></a>
+                  <a href="#" ng-click="prendersonido('jefe')"><img src="img/jefe.png" class="mediana"></a>
                 </div>
                  <div class="cinco">
-                  <a href="#modal1"><img src="img/marge.png" class="mediana"></a>
+                  <a href="#" ng-click="prendersonido('marge')"><img src="img/marge.png" class="mediana"></a>
                 </div>
+
+                <button ng-click="terminar()">Terminar</button>
+
+                <div id="mostrartxt"></div>
            </div> 
         </section>
       </div>
